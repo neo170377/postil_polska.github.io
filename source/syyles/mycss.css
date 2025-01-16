@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Caveat&effect=neon');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+body {
+  font-family: Michroma, serif;
+  background: linear-gradient(90deg, #3080e8 0%, #9ee675 100%, #af9797 100%);
+}
+
+.navbar-brand img {
+  width: 60px;
+}
+
+.navbar {
+  background: linear-gradient(180deg, #3080e8 0%, #9ee675 100%, #af9797 100%);
+}
+
+.info {
+  background: linear-gradient(360deg, #3080e8 0%, #9ee675 100%, #af9797 100%);
+}
+
+a {
+  color: #000000;
+  /* Цвет ссылки (синий, как у Google) */
+  text-decoration: none;
+  /* Убирает подчеркивание */
+  font-weight: bold;
+  /* Делает текст жирным */
+}
+
+a:hover {
+  text-decoration: underline;
+  /* Подчеркивание при наведении */
+}
+
+
+.contact {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.logo {
+  width: 100px;
+  /* Ширина логотипа */
+  margin-right: 20px;
+}
+
+.contact-numbers {
+  font-size: 16px;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.contact-numbers p {
+  margin: 0;
+}
+
+.fasad {
+  margin: 0;
+  background-color: hsl(118, 87%, 94%); /* Голубой */
+  border: 2px solid rgb(144, 202, 249); /* Светло-голубая граница */
+  border-radius: 15px; /* Закруглённые углы */
+  padding: 15px; /* Внутренние отступы */
+}
+
+.fasad .col-lg-4 {
+  margin: 0;
+  height: 200px;
+  /* Высота блока, можно менять */
+  overflow: hidden;
+}
+
+.fasad img {
+  width: 100%;
+  /* Заполняет ширину блока */
+  height: 100%;
+  /* Заполняет высоту блока */
+
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.caveat-<uniquifier> {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+
+.navigation {
+  background-color: #e3f2fd; /* Голубой */
+  border: 2px solid #90caf9; /* Светло-голубая граница */
+  border-radius: 15px; /* Закруглённые углы */
+  padding: 15px; /* Внутренние отступы */
+}
